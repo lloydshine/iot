@@ -88,7 +88,7 @@ This project is structured into three main parts:
 
 3. Run the development server:
 
-   npm run dev
+   npm run host
 
    The client will be running on `http://localhost:5173`.
 
