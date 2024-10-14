@@ -8,11 +8,13 @@ This project is structured into three main parts:
 
 ## Project Structure
 
+```
 .
 ├── device/ # Python-based device management
 ├── server/ # Node.js server for Websocket logic
 ├── client/ # Vite + React frontend web app
 └── README.md
+```
 
 ## 1. Device (Python)
 
