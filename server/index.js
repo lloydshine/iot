@@ -5,7 +5,7 @@ const server = http.createServer();
 const wsServer = new WebSocketServer({ server });
 
 const port = 5861;
-const host = "192.168.1.5";
+const host = "localhost";
 
 let connections = [];
 

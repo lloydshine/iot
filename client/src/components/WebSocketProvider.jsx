@@ -18,7 +18,7 @@ export function WebSocketProvider({ children }) {
   const [soilData, setSoilData] = useState(null);
 
   const { sendJsonMessage, lastJsonMessage } = useWebSocket(
-    "ws://192.168.1.5:5861",
+    "ws://localhost:5861",
     {
       onOpen: () => {
         console.log("WebSocket connection opened");

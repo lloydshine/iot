@@ -52,7 +52,7 @@ def listen_for_websocket_messages():
     websocket.enableTrace(True)
     
     # Initialize the WebSocketApp
-    ws = websocket.WebSocketApp("ws://192.168.1.5:5861", 
+    ws = websocket.WebSocketApp("ws://localhost:5861", 
                                   on_message=on_message,
                                   on_error=on_error,
                                   on_close=on_close,
